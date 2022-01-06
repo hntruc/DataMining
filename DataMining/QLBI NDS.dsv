@@ -1,0 +1,105 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b547677c-6d96-4835-9df4-55811c934e02" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>QLBI NDS</ID>
+  <Name>QLBI NDS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>QLBI NDS</DataSourceID>
+  <Schema>
+    <xs:schema id="QLBI_x0020_NDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="QLBI_x0020_NDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9e102cf6-b397-4567-a65e-db6edec3a482">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Accidents2011_2014_NDS" msprop:design-time-name="ade9b514-757c-433c-8910-f6c963d7be87" msprop:DbTableName="Accidents2011_2014_NDS" msprop:FriendlyName="Accidents2011_2014_NDS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SKAccident" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ff9bf35c-c44a-468a-8f26-76a8f29ceedf" msprop:DbColumnName="SKAccident" msprop:FriendlyName="SKAccident" type="xs:int" />
+                  <xs:element name="Accident_Index" msprop:design-time-name="280cd34d-9bea-4769-a2ef-263550f9bde8" msprop:DbColumnName="Accident_Index" msprop:FriendlyName="Accident_Index">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="512" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Longitude" msprop:design-time-name="901a4dea-5371-45a7-995d-c7faca1f5e20" msprop:DbColumnName="Longitude" msprop:FriendlyName="Longitude" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="512" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Latitude" msprop:design-time-name="41cff07b-d543-4329-bd8a-d094e9a656bb" msprop:DbColumnName="Latitude" msprop:FriendlyName="Latitude" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="512" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Accident_Severity" msprop:design-time-name="9dd09af0-ea97-4bb3-ba80-c3710d962760" msprop:DbColumnName="Accident_Severity" msprop:FriendlyName="Accident_Severity" type="xs:int" minOccurs="0" />
+                  <xs:element name="Number_of_Vehicles" msprop:design-time-name="b9730ff5-eee3-406d-b7b7-3f7fa556efb7" msprop:DbColumnName="Number_of_Vehicles" msprop:FriendlyName="Number_of_Vehicles" type="xs:int" minOccurs="0" />
+                  <xs:element name="Number_of_Casualties" msprop:design-time-name="63be8c2e-8ef0-4edf-b985-460a3f0e61c1" msprop:DbColumnName="Number_of_Casualties" msprop:FriendlyName="Number_of_Casualties" type="xs:int" minOccurs="0" />
+                  <xs:element name="Date_" msprop:design-time-name="c193ef13-056d-4ae4-8cc5-00c8808333a1" msprop:DbColumnName="Date_" msprop:FriendlyName="Date_" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Day_of_Week" msprop:design-time-name="f15f6117-b12f-45d2-a960-7f8973a10055" msprop:DbColumnName="Day_of_Week" msprop:FriendlyName="Day_of_Week" type="xs:int" minOccurs="0" />
+                  <xs:element name="Time_" msdata:DataType="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:design-time-name="f2205eae-f675-4456-a402-c7faaf386a94" msprop:DbColumnName="Time_" msprop:FriendlyName="Time_" type="xs:anyType" minOccurs="0" />
+                  <xs:element name="Local_Authority_District" msprop:design-time-name="8a30adee-1313-40cd-acf9-796073516acf" msprop:DbColumnName="Local_Authority_District" msprop:FriendlyName="Local_Authority_District" type="xs:int" minOccurs="0" />
+                  <xs:element name="Local_Authority_Highway" msprop:design-time-name="c3ef517b-9ff3-406b-886c-3ebab56cc6b4" msprop:DbColumnName="Local_Authority_Highway" msprop:FriendlyName="Local_Authority_Highway" type="xs:int" minOccurs="0" />
+                  <xs:element name="Road_Type" msprop:design-time-name="a4aa6405-dc3f-489d-aaaa-e553c5cccfd0" msprop:DbColumnName="Road_Type" msprop:FriendlyName="Road_Type" type="xs:int" minOccurs="0" />
+                  <xs:element name="Speed_limit" msprop:design-time-name="7406bbc1-cfd6-4194-8a6e-82602885cd5a" msprop:DbColumnName="Speed_limit" msprop:FriendlyName="Speed_limit" type="xs:int" minOccurs="0" />
+                  <xs:element name="Light_Conditions" msprop:design-time-name="dde9f6ea-747f-4a1e-be7c-e7eb0878b35c" msprop:DbColumnName="Light_Conditions" msprop:FriendlyName="Light_Conditions" type="xs:int" minOccurs="0" />
+                  <xs:element name="Weather_Conditions" msprop:design-time-name="a2007bc6-8dc9-4145-a97a-ca8979e04c27" msprop:DbColumnName="Weather_Conditions" msprop:FriendlyName="Weather_Conditions" type="xs:int" minOccurs="0" />
+                  <xs:element name="Road_Surface_Conditions" msprop:design-time-name="0d848acd-5e5c-4025-a8dc-fe6513d0eaa6" msprop:DbColumnName="Road_Surface_Conditions" msprop:FriendlyName="Road_Surface_Conditions" type="xs:int" minOccurs="0" />
+                  <xs:element name="Urban_or_Rural_Area" msprop:design-time-name="941fea47-adfd-4bab-bf25-b1eb523b89e8" msprop:DbColumnName="Urban_or_Rural_Area" msprop:FriendlyName="Urban_or_Rural_Area" type="xs:int" minOccurs="0" />
+                  <xs:element name="create_date" msprop:design-time-name="a35f2b4a-a9f7-4c9d-9052-0cf98d7d922c" msprop:DbColumnName="create_date" msprop:FriendlyName="create_date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="update_date" msprop:design-time-name="c3f190f6-895b-4c82-8e67-6dabb58d0115" msprop:DbColumnName="update_date" msprop:FriendlyName="update_date" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="status_code" msprop:design-time-name="42a7681a-3bd7-4f9f-82b9-f7eb8feb98e9" msprop:DbColumnName="status_code" msprop:FriendlyName="status_code" type="xs:int" minOccurs="0" />
+                  <xs:element name="source_sys_code" msprop:design-time-name="c92da177-2aff-46da-9376-6ad812793024" msprop:DbColumnName="source_sys_code" msprop:FriendlyName="source_sys_code" type="xs:int" minOccurs="0" />
+                  <xs:element name="LSOA_of_Accident_Location" msprop:design-time-name="12726ea6-8eb3-4c43-9abe-5dc981c5c3e0" msprop:DbColumnName="LSOA_of_Accident_Location" msprop:FriendlyName="LSOA_of_Accident_Location" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Accidents2011_2014_NDS" />
+          <xs:field xpath="SKAccident" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <QLBI_x0020_NDS xmlns="" />
+  </Schema>
+</DataSourceView>

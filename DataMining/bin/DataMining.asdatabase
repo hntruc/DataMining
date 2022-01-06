@@ -1,0 +1,359 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DataMining</ID>
+  <Name>DataMining</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <MiningStructures>
+    <MiningStructure>
+      <ID>Accidents2011 2014 NDS</ID>
+      <Name>Accidents2011 2014 NDS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+          <Value>dbo_Accidents2011_2014_NDS</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10418" scrolltop="-3453" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="25806" y="12330" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Accidents2011_2014_NDS" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4480" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00008011000088130000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_Accidents2011_2014_NDS" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-10418</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-3453</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>QLBI NDS</DataSourceViewID>
+      </Source>
+      <Columns>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Accident Severity</ID>
+          <Name>Accident Severity</Name>
+          <Type>Long</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Accidents2011_2014_NDS</TableID>
+                <ColumnID>Accident_Severity</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Light Conditions</ID>
+          <Name>Light Conditions</Name>
+          <Type>Long</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Accidents2011_2014_NDS</TableID>
+                <ColumnID>Light_Conditions</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Road Surface Conditions</ID>
+          <Name>Road Surface Conditions</Name>
+          <Type>Long</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Accidents2011_2014_NDS</TableID>
+                <ColumnID>Road_Surface_Conditions</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Road Type</ID>
+          <Name>Road Type</Name>
+          <Type>Long</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Accidents2011_2014_NDS</TableID>
+                <ColumnID>Road_Type</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>SK Accident</ID>
+          <Name>SK Accident</Name>
+          <IsKey>true</IsKey>
+          <Type>Long</Type>
+          <Content>Key</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Accidents2011_2014_NDS</TableID>
+                <ColumnID>SKAccident</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+        <Column xsi:type="ScalarMiningStructureColumn">
+          <ID>Weather Conditions</ID>
+          <Name>Weather Conditions</Name>
+          <Type>Long</Type>
+          <Content>Discrete</Content>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <DataSize>-1</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Accidents2011_2014_NDS</TableID>
+                <ColumnID>Weather_Conditions</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+        </Column>
+      </Columns>
+      <MiningModels>
+        <MiningModel>
+          <ID>Accidents2011 2014 NDS</ID>
+          <Name>Accidents2011 2014 NDS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Algorithm>Microsoft_Clustering</Algorithm>
+          <Columns>
+            <Column>
+              <ID>Accident Severity</ID>
+              <Name>Accident Severity</Name>
+              <SourceColumnID>Accident Severity</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Light Conditions</ID>
+              <Name>Light Conditions</Name>
+              <SourceColumnID>Light Conditions</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Road Surface Conditions</ID>
+              <Name>Road Surface Conditions</Name>
+              <SourceColumnID>Road Surface Conditions</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>Road Type</ID>
+              <Name>Road Type</Name>
+              <SourceColumnID>Road Type</SourceColumnID>
+            </Column>
+            <Column>
+              <ID>SK Accident</ID>
+              <Name>SK Accident</Name>
+              <SourceColumnID>SK Accident</SourceColumnID>
+              <Usage>Key</Usage>
+            </Column>
+            <Column>
+              <ID>Weather Conditions</ID>
+              <Name>Weather Conditions</Name>
+              <SourceColumnID>Weather Conditions</SourceColumnID>
+            </Column>
+          </Columns>
+        </MiningModel>
+      </MiningModels>
+      <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+    </MiningStructure>
+  </MiningStructures>
+  <DataSources>
+    <DataSource xsi:type="RelationalDataSource">
+      <ID>QLBI NDS</ID>
+      <Name>QLBI NDS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-LATGDUJ;Integrated Security=SSPI;Initial Catalog=QLBI_NDS</ConnectionString>
+      <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+      <ImpersonationInfo>
+        <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+        <Account>Jane Hwang</Account>
+        <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
+      </ImpersonationInfo>
+      <Timeout>PT0S</Timeout>
+    </DataSource>
+  </DataSources>
+  <DataSourceViews>
+    <DataSourceView>
+      <ID>QLBI NDS</ID>
+      <Name>QLBI NDS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+          <Value>_ALL_TABLES_</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+          <Value>
+            <Layouts xmlns="">
+              <Diagram>
+                <Name>_ALL_TABLES_</Name>
+                <DiagramLayout />
+                <ShowRelationshipNames>False</ShowRelationshipNames>
+                <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+                <DiagramViewPortLeft>0</DiagramViewPortLeft>
+                <DiagramViewPortTop>0</DiagramViewPortTop>
+                <DiagramBoundingLeft>0</DiagramBoundingLeft>
+                <DiagramBoundingTop>0</DiagramBoundingTop>
+                <DiagramZoom>100</DiagramZoom>
+              </Diagram>
+            </Layouts>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <DataSourceID>QLBI NDS</DataSourceID>
+      <Schema>
+        <xs:schema id="QLBI_x0020_NDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+          <xs:element name="QLBI_x0020_NDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="9e102cf6-b397-4567-a65e-db6edec3a482">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="dbo_Accidents2011_2014_NDS" msprop:design-time-name="ade9b514-757c-433c-8910-f6c963d7be87" msprop:FriendlyName="Accidents2011_2014_NDS" msprop:DbSchemaName="dbo" msprop:DbTableName="Accidents2011_2014_NDS" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="SKAccident" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ff9bf35c-c44a-468a-8f26-76a8f29ceedf" msprop:DbColumnName="SKAccident" msprop:FriendlyName="SKAccident" type="xs:int" />
+                      <xs:element name="Accident_Index" msprop:design-time-name="280cd34d-9bea-4769-a2ef-263550f9bde8" msprop:DbColumnName="Accident_Index" msprop:FriendlyName="Accident_Index">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="512" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Longitude" msprop:design-time-name="901a4dea-5371-45a7-995d-c7faca1f5e20" msprop:DbColumnName="Longitude" msprop:FriendlyName="Longitude" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="512" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Latitude" msprop:design-time-name="41cff07b-d543-4329-bd8a-d094e9a656bb" msprop:DbColumnName="Latitude" msprop:FriendlyName="Latitude" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="512" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Accident_Severity" msprop:design-time-name="9dd09af0-ea97-4bb3-ba80-c3710d962760" msprop:DbColumnName="Accident_Severity" msprop:FriendlyName="Accident_Severity" type="xs:int" minOccurs="0" />
+                      <xs:element name="Number_of_Vehicles" msprop:design-time-name="b9730ff5-eee3-406d-b7b7-3f7fa556efb7" msprop:DbColumnName="Number_of_Vehicles" msprop:FriendlyName="Number_of_Vehicles" type="xs:int" minOccurs="0" />
+                      <xs:element name="Number_of_Casualties" msprop:design-time-name="63be8c2e-8ef0-4edf-b985-460a3f0e61c1" msprop:DbColumnName="Number_of_Casualties" msprop:FriendlyName="Number_of_Casualties" type="xs:int" minOccurs="0" />
+                      <xs:element name="Date_" msprop:design-time-name="c193ef13-056d-4ae4-8cc5-00c8808333a1" msprop:DbColumnName="Date_" msprop:FriendlyName="Date_" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Day_of_Week" msprop:design-time-name="f15f6117-b12f-45d2-a960-7f8973a10055" msprop:DbColumnName="Day_of_Week" msprop:FriendlyName="Day_of_Week" type="xs:int" minOccurs="0" />
+                      <xs:element name="Time_" msprop:design-time-name="f2205eae-f675-4456-a402-c7faaf386a94" msprop:DbColumnName="Time_" msprop:FriendlyName="Time_" type="xs:anyType" minOccurs="0" />
+                      <xs:element name="Local_Authority_District" msprop:design-time-name="8a30adee-1313-40cd-acf9-796073516acf" msprop:DbColumnName="Local_Authority_District" msprop:FriendlyName="Local_Authority_District" type="xs:int" minOccurs="0" />
+                      <xs:element name="Local_Authority_Highway" msprop:design-time-name="c3ef517b-9ff3-406b-886c-3ebab56cc6b4" msprop:DbColumnName="Local_Authority_Highway" msprop:FriendlyName="Local_Authority_Highway" type="xs:int" minOccurs="0" />
+                      <xs:element name="Road_Type" msprop:design-time-name="a4aa6405-dc3f-489d-aaaa-e553c5cccfd0" msprop:DbColumnName="Road_Type" msprop:FriendlyName="Road_Type" type="xs:int" minOccurs="0" />
+                      <xs:element name="Speed_limit" msprop:design-time-name="7406bbc1-cfd6-4194-8a6e-82602885cd5a" msprop:DbColumnName="Speed_limit" msprop:FriendlyName="Speed_limit" type="xs:int" minOccurs="0" />
+                      <xs:element name="Light_Conditions" msprop:design-time-name="dde9f6ea-747f-4a1e-be7c-e7eb0878b35c" msprop:DbColumnName="Light_Conditions" msprop:FriendlyName="Light_Conditions" type="xs:int" minOccurs="0" />
+                      <xs:element name="Weather_Conditions" msprop:design-time-name="a2007bc6-8dc9-4145-a97a-ca8979e04c27" msprop:DbColumnName="Weather_Conditions" msprop:FriendlyName="Weather_Conditions" type="xs:int" minOccurs="0" />
+                      <xs:element name="Road_Surface_Conditions" msprop:design-time-name="0d848acd-5e5c-4025-a8dc-fe6513d0eaa6" msprop:DbColumnName="Road_Surface_Conditions" msprop:FriendlyName="Road_Surface_Conditions" type="xs:int" minOccurs="0" />
+                      <xs:element name="Urban_or_Rural_Area" msprop:design-time-name="941fea47-adfd-4bab-bf25-b1eb523b89e8" msprop:DbColumnName="Urban_or_Rural_Area" msprop:FriendlyName="Urban_or_Rural_Area" type="xs:int" minOccurs="0" />
+                      <xs:element name="create_date" msprop:design-time-name="a35f2b4a-a9f7-4c9d-9052-0cf98d7d922c" msprop:DbColumnName="create_date" msprop:FriendlyName="create_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="update_date" msprop:design-time-name="c3f190f6-895b-4c82-8e67-6dabb58d0115" msprop:DbColumnName="update_date" msprop:FriendlyName="update_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="status_code" msprop:design-time-name="42a7681a-3bd7-4f9f-82b9-f7eb8feb98e9" msprop:DbColumnName="status_code" msprop:FriendlyName="status_code" type="xs:int" minOccurs="0" />
+                      <xs:element name="source_sys_code" msprop:design-time-name="c92da177-2aff-46da-9376-6ad812793024" msprop:DbColumnName="source_sys_code" msprop:FriendlyName="source_sys_code" type="xs:int" minOccurs="0" />
+                      <xs:element name="LSOA_of_Accident_Location" msprop:design-time-name="12726ea6-8eb3-4c43-9abe-5dc981c5c3e0" msprop:DbColumnName="LSOA_of_Accident_Location" msprop:FriendlyName="LSOA_of_Accident_Location" type="xs:int" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+            <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_Accidents2011_2014_NDS" />
+              <xs:field xpath="SKAccident" />
+            </xs:unique>
+          </xs:element>
+        </xs:schema>
+        <QLBI_x0020_NDS xmlns="" />
+      </Schema>
+    </DataSourceView>
+  </DataSourceViews>
+</Database>
